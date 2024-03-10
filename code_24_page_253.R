@@ -1,4 +1,5 @@
-library(MDPtoolbox);p=0.75;
+install.packages("MDPtoolbox")
+library(MDPtoolbox);p=0.0;
 P <- array(0, c(7, 7, 2));q=1-p
 P[,,1] <- matrix(c(0,0,0,1,0,0,0,
                    0,0,0,0,1,0,0, 
